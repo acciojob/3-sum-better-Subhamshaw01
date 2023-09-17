@@ -1,5 +1,5 @@
 function threeSum(arr, target) {
-	let r={};
+	let r=[];
 	for(let i=0;i<arr.length-2;i++)
 		{
 			for(let j=0;j<arr.length-1;j++)
@@ -8,7 +8,7 @@ function threeSum(arr, target) {
 						{
 							if(r[i]+r[j]+r[k]==target)
 							{
-								document.write(r[i]+" "+r[j]+" "+r[k])
+								console.log(r[i]+" "+r[j]+" "+r[k])
 								return true;
 							}
 						}
