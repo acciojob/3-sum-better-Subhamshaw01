@@ -6,9 +6,9 @@ function threeSum(arr, target) {
 				{
 					for(let k=0;k<arr.length;k++)
 						{
-							if(r[i]+r[j]+r[k]==target)
+							if(arr[i]+arr[j]+arr[k]==target)
 							{
-								console.log(r[i]+" "+r[j]+" "+r[k])
+								console.log(arr[i]+" "+arr[j]+" "+arr[k])
 								return true;
 							}
 						}
