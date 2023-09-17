@@ -15,7 +15,7 @@ function threeSum(arr, target) {
 				}
 			
 		}
-	return false;
+	//return false;
 // write your code here
   
 }
