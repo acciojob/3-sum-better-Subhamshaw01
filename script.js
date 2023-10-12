@@ -3,11 +3,10 @@ function threeSum(arr, target) {
 		{
 			for(let j=i+1;j<arr.length-1;j++)
 				{
-					for(let k=j+1;k<arr.length-1;k++)
+					for(let k=j+1;k<arr.length;k++)
 						{
 							if(arr[i]+arr[j]+arr[k]==target)
 							{
-								console.log(arr[i]+" "+arr[j]+" "+arr[k])
 								return true;
 							}
 						}
