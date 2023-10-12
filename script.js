@@ -7,6 +7,7 @@ function threeSum(arr, target) {
 						{
 							if(arr[i]+arr[j]+arr[k]==target)
 							{
+								console.log(target);
 								return true;
 							}
 						}
